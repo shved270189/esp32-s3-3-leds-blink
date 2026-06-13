@@ -12,6 +12,10 @@ The mapping from state to LED pins is driven by a lookup table rather than a
 
 ## Hardware
 
+![Schematic: ESP32-S3 dev kit with three LEDs and a push-button](schema.png)
+
+📄 [Schematic as PDF](schema.pdf) (vector version, best for zooming and printing)
+
 | Signal       | GPIO | Notes                                              |
 |--------------|------|----------------------------------------------------|
 | Red LED      | 5    | output, LED + resistor to GND                      |
