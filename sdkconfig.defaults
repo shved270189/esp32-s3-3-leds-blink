@@ -1,0 +1,11 @@
+# Project configuration defaults.
+#
+# idf.py applies these when (re)generating the local `sdkconfig`, which is
+# gitignored. Change settings interactively with `idf.py menuconfig`, then
+# move anything that should be shared into this file.
+
+# Target chip
+CONFIG_IDF_TARGET="esp32s3"
+
+# Flash size (matches the dev board)
+CONFIG_ESPTOOLPY_FLASHSIZE="8MB"
